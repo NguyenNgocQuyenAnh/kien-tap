@@ -1,0 +1,36 @@
+.head-menu{
+    font-size: 30px;
+    text-align: center;
+}
+.body-menu{
+    display: flex;
+    flex-direction: row;
+    max-width: 1170px;
+    margin: 0 16px;
+}
+.introduce-menu{
+    margin: 16px;
+}
+.introduce-menu .name-dish{
+    font-size: 24px;
+}
+.introduce-menu .p-dish{
+    font-size: 16px;
+    opacity: 0.8;
+}
+.introduce-menu .img-dish{
+  height: auto;
+  width: 100%;
+  flex: 1;
+}
+.footer-menu .btn-menu{
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    opacity: 0.8;
+}
+.footer-menu .btn-menu:hover{
+    opacity: 1;
+}
+
